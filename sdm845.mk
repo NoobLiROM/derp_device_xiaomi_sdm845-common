@@ -180,6 +180,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
