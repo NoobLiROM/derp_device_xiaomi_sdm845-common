@@ -155,6 +155,8 @@ VENDOR_SECURITY_PATCH := 2020-05-01
 
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
+include device/404/qcom/sepolicy.mk
+include device/404/common/sepolicy.mk
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
