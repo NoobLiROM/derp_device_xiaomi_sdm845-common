@@ -1,3 +1,4 @@
 allow hvdcp sysfs:file { open read };
 allow hvdcp sysfs:file write;
 
+r_dir_file(hvdcp, sysfs_batteryinfo)
