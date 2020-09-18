@@ -1,0 +1,12 @@
+allow untrusted_app_27 adbd_prop:file { getattr open };
+allow untrusted_app_27 adsprpc_prop:file { getattr open };
+allow untrusted_app_27 apexd_prop:file { getattr open };
+allow untrusted_app_27 apk_verity_prop:file { getattr open };
+allow untrusted_app_27 bg_boot_complete_prop:file open;
+allow untrusted_app_27 proc_stat:file { getattr open };
+allow untrusted_app_27 proc_tty_drivers:file { getattr open read };
+allow untrusted_app_27 proc_uptime:file { getattr open };
+allow untrusted_app_27 proc_version:file { getattr open read };
+allow untrusted_app_27 sysfs:file { getattr open read };
+allow untrusted_app_27 sysfs_net:dir search;
+

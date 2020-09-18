@@ -1,0 +1,3 @@
+allow init vendor_file:file execute_no_trans;
+allow init xdsp_device:chr_file ioctl;
+
